@@ -9,3 +9,10 @@ Blender version of a theme in Godot game engine called Solarized (Light)
 3) open **Themes** tab
 4) at top right click "**Install...**"
 5) select to install **solarized-light.xml**
+
+# fonts
+I am using this awesome bold font called Russo for interface
+https://www.1001fonts.com/russo-one-font.html
+
+For code I am using Fira Code, on Linux it's probably in your distros repo if you look for it.
+https://github.com/tonsky/FiraCode
