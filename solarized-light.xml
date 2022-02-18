@@ -9,6 +9,7 @@
         widget_emboss="#00000000"
         editor_outline="#e6dfcf"
         widget_text_cursor="#ff8033"
+        panel_roundness="0.4"
         transparent_checker_primary="#3b3237"
         transparent_checker_secondary="#2e272b"
         transparent_checker_size="16"
@@ -463,10 +464,10 @@
     </view_3d>
     <graph_editor>
       <ThemeGraphEditor
-        grid="#261426"
+        grid="#4d4448"
         frame_current="#a5c8ff"
         time_scrub_background="#fcf5e3ff"
-        time_marker_line="#00000060"
+        time_marker_line="#00000065"
         time_marker_line_selected="#ffffff60"
         window_sliders="#969696"
         channels_region="#d1cabc"
@@ -478,7 +479,7 @@
         vertex="#000000"
         vertex_select="#ff8500"
         vertex_active="#ffffff"
-        vertex_size="6"
+        vertex_size="8"
         vertex_bevel="#000000"
         vertex_unreferenced="#000000"
         handle_free="#000000"
@@ -494,12 +495,12 @@
         lastsel_point="#ffffff"
         handle_vertex="#000000"
         handle_vertex_select="#ff8500"
-        handle_vertex_size="5"
+        handle_vertex_size="7"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#3b3232"
-            title="#413f3b"
+            back="#685c62"
+            title="#ff8500"
             text="#413f3b"
             text_hi="#413f3b"
             header="#fcf5e3ff"
@@ -891,24 +892,24 @@
     </properties>
     <text_editor>
       <ThemeTextEditor
-        line_numbers="#c9b8ae"
-        line_numbers_background="#e6dfcf"
+        line_numbers="#8a6254"
+        line_numbers_background="#5b4c55"
         selected_text="#f7f7fc"
         cursor="#b5b5f1"
-        syntax_builtin="#ff1961"
-        syntax_symbols="#ff734d"
-        syntax_special="#95d600"
-        syntax_preprocessor="#ad80ff"
+        syntax_builtin="#fdff5c"
+        syntax_symbols="#ff822d"
+        syntax_special="#fdff5c"
+        syntax_preprocessor="#a078f0"
         syntax_reserved="#c4753b"
-        syntax_comment="#939393"
-        syntax_string="#c6ac1c"
-        syntax_numbers="#219a38"
+        syntax_comment="#8fadc0"
+        syntax_string="#a2fd51"
+        syntax_numbers="#4cf469"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#fcf5e3"
+            back="#685c62"
             title="#413f3b"
-            text="#413f3b"
+            text="#fcfcfc"
             text_hi="#413f3b"
             header="#fcf5e3ff"
             header_text="#413f3b"
@@ -938,29 +939,30 @@
     </text_editor>
     <node_editor>
       <ThemeNodeEditor
-        grid="#f0e8d8"
+        grid="#644c56"
         node_selected="#ffffff"
         node_active="#ffffff"
-        wire="#ffffff"
-        wire_inner="#000000"
-        wire_select="#ffffff"
+        wire="#3c3238"
+        wire_inner="#3c3238"
+        wire_select="#ffffffae"
         selected_text="#3f3d39"
         node_backdrop="#fff7e5ff"
         converter_node="#b8e6ff"
-        color_node="#ffeb7e"
+        color_node="#f89d43"
         group_node="#c0ff96b9"
         group_socket_node="#c0ff96"
         frame_node="#fff7e5ff"
         matte_node="#fea9a9"
         distor_node="#aef6f6"
-        noodle_curving="3"
-        grid_levels="2"
-        input_node="#ffffff"
-        output_node="#ffa8b0"
+        noodle_curving="5"
+        grid_levels="5"
+        dash_alpha="0.5"
+        input_node="#f6f6aa"
+        output_node="#46e5c0"
         filter_node="#b9a9e8"
         vector_node="#ccc3ff"
-        texture_node="#ffc492"
-        shader_node="#63c763"
+        texture_node="#ed84ef"
+        shader_node="#65e965"
         script_node="#6fffff"
         pattern_node="#fff7e5"
         layout_node="#fff7e5"
@@ -969,10 +971,10 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#ede6d5"
-            title="#3f3d39"
+            back="#685c62"
+            title="#ff8033"
             text="#3f3d39"
-            text_hi="#3f3d39"
+            text_hi="#ff8033"
             header="#fcf5e3ff"
             header_text="#3f3d39"
             header_text_hi="#3f3d39"
@@ -1316,6 +1318,51 @@
         </space>
       </ThemeStatusBar>
     </statusbar>
+    <spreadsheet>
+      <ThemeSpreadsheet
+        row_alternate="#ffffff04"
+        >
+        <space>
+          <ThemeSpaceGeneric
+            back="#282828"
+            title="#ffffff"
+            text="#c3c3c3"
+            text_hi="#ffffff"
+            header="#303030b3"
+            header_text="#eeeeee"
+            header_text_hi="#ffffff"
+            button="#30303000"
+            button_title="#ffffff"
+            button_text="#cccccc"
+            button_text_hi="#ffffff"
+            navigation_bar="#1d1d1dff"
+            execution_buts="#303030ff"
+            tab_active="#303030"
+            tab_inactive="#1d1d1d"
+            tab_back="#181818ff"
+            tab_outline="#3d3d3d"
+            >
+            <panelcolors>
+              <ThemePanelColors
+                header="#3d3d3dff"
+                back="#3d3d3dff"
+                sub_back="#0000001f"
+                >
+              </ThemePanelColors>
+            </panelcolors>
+          </ThemeSpaceGeneric>
+        </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#303030"
+            list_title="#c3c3c3"
+            list_text="#b8b8b8"
+            list_text_hi="#ffaf23"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
+      </ThemeSpreadsheet>
+    </spreadsheet>
     <bone_color_sets>
       <ThemeBoneColorSet
         normal="#9a0000"
@@ -1492,12 +1539,49 @@
         >
       </ThemeCollectionColor>
     </collection_color>
+    <strip_color>
+      <ThemeStripColor
+        color="#e2605b"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#f1a355"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#f1dc55"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#7bcc7b"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#5db6ea"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#8d59da"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#c673b8"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#7a5441"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#5f5f5f"
+        >
+      </ThemeStripColor>
+    </strip_color>
   </Theme>
   <ThemeStyle>
     <panel_title>
       <ThemeFontStyle
         points="12"
-        font_kerning_style="FITTED"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1509,7 +1593,6 @@
     <widget_label>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1521,7 +1604,6 @@
     <widget>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
