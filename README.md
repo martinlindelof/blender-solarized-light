@@ -5,8 +5,8 @@ Blender version of a theme in Godot game engine called Solarized (Light)
 Updated with Buttons looking more soft and button-y. The value input/sliders have dark background with bright values.
 Brighter UI makes the content/renderview stand out more.
 
-![Screenshot_2022-02-19_10-20-07](https://user-images.githubusercontent.com/156772/154795154-33fece7f-7072-4d16-9518-dd8ae5491bcb.png)
-Solarized (Light) theme works great when working day-time in bright studio/office environments where dark text on light background makes the user interface more read-able.
+Buttons re-worked.
+![image](https://user-images.githubusercontent.com/156772/196028546-f1d60ff9-73e4-4693-b2f8-3fa4e9f71219.png)
 
 # install
 1) clone or download this repo
