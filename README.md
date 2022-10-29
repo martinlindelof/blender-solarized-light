@@ -1,5 +1,5 @@
 # blender-solarized-light
-Blender version of a theme in Godot game engine called Solarized (Light)
+Blender version of a theme in Godot game engine called Solarized (Light) which helps with focusing on the viewport, by contrasting the user interface.
 
 ![blender-solarized-light-inkscape](https://user-images.githubusercontent.com/156772/198823549-0d7fa601-285e-468d-b2c7-0a5af0c873a3.png)
 Updated with Buttons looking more soft and button-y. The value input/sliders have dark background with bright values.
