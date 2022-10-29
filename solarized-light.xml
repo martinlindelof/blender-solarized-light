@@ -35,7 +35,7 @@
           <ThemeWidgetColors
             outline="#bfb2a2"
             inner="#e6dfcfff"
-            inner_sel="#ffb25bff"
+            inner_sel="#ffa949ff"
             item="#413f3bff"
             text="#413f3b"
             text_sel="#ffffff"
@@ -53,7 +53,7 @@
             inner_sel="#e6dfcfff"
             item="#3f3d39ff"
             text="#3f3d39"
-            text_sel="#3f3d39"
+            text_sel="#ffffff"
             show_shaded="TRUE"
             shadetop="8"
             shadedown="-24"
@@ -72,7 +72,7 @@
             show_shaded="TRUE"
             shadetop="5"
             shadedown="-24"
-            roundness="1"
+            roundness="0.9"
             >
           </ThemeWidgetColors>
         </wcol_toolbar_item>
@@ -110,7 +110,7 @@
           <ThemeWidgetColors
             outline="#bfb2a2"
             inner="#cbc6b8ff"
-            inner_sel="#b7f7a3ff"
+            inner_sel="#94ff6eff"
             item="#ffffffff"
             text="#413f3b"
             text_sel="#011404"
@@ -295,8 +295,8 @@
             text="#3f3d39"
             text_sel="#353535"
             show_shaded="TRUE"
-            shadetop="5"
-            shadedown="-16"
+            shadetop="8"
+            shadedown="-24"
             roundness="1"
             >
           </ThemeWidgetColors>
@@ -358,7 +358,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="1"
+            roundness="0.9"
             >
           </ThemeWidgetColors>
         </wcol_tab>
